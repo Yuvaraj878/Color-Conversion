@@ -1,0 +1,8 @@
+# Developed By: Yuvaraj.S
+# Register Number: 22008589
+
+import cv2
+dog_color_image = cv2.imread('dog.jpg')
+cv2.imshow('Original image', dog_color_image)
+cv2.waitKey(0)
+cv2. destroyAllWindows()

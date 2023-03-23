@@ -1,0 +1,11 @@
+# Developed By: Yuvaraj.S
+# Register Number: 22008589
+# iii)Convert RGB and BGR to YCrCb
+import cv2
+dog_color_image = cv2.imread('dog.jpg')
+YCrCb_image = cv2.cvtColor(dog_color_image, cv2.COLOR_RGB2YCrCb)
+cv2.imshow('RGB2YCrCb',YCrCb_image)
+YCrCb_image1 = cv2.cvtColor(dog_color_image, cv2.COLOR_BGR2YCrCb)
+cv2.imshow('BGR2YCrCb',YCrCb_image1)
+cv2.waitKey(0)
+cv2.destroyAllWindows()

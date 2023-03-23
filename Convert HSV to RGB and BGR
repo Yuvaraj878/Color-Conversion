@@ -1,0 +1,10 @@
+# Developed By: Yuvaraj.S
+# Register Number: 22008589
+import cv2
+dog_HSV_image = cv2.imread('dog.jpg')
+RGB_image = cv2.cvtColor(dog_HSV_image,cv2.COLOR_HSV2RGB)
+cv2.imshow('HSV to RGB',RGB_image )
+BGR_image = cv2.cvtColor(dog_HSV_image,cv2.COLOR_HSV2BGR)
+cv2.imshow('HSV to BGR',BGR_image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
