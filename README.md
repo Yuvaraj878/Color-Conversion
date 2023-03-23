@@ -117,6 +117,8 @@ cv2.waitKey(0)
 cv2.destoryAllWindows()
 ```
 ## Output:
+### Original Image
+
 ### i) BGR and RGB to HSV and GRAY
 !(output)./1stsub1.png
 
