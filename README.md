@@ -118,7 +118,7 @@ cv2.destoryAllWindows()
 ```
 ## Output:
 ### i) BGR and RGB to HSV and GRAY
-!(Output)./1st sub 1.png
+![alt text](1st sub 1.png)
 
 ### ii) HSV to RGB and BGR
 
