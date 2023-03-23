@@ -121,7 +121,6 @@ cv2.destoryAllWindows()
 ![Output](./ori%20imf%201.png)
 ### i) BGR and RGB to HSV and GRAY
 ![Output](./1st%20sub%201.png)
-!
 
 ### ii) HSV to RGB and BGR
 
